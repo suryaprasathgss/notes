@@ -29,9 +29,11 @@ Branches are nothing but pointers to a certain commit. \
 `git branch -r` - lists all the remote branches. \
 `git branch -v` - displays the last commit with the commit message. \
 `git branch surya`- will create a new branch called "surya" \
-`git checkout -b surya` - will create & immediately switch to "surya" branch. \
-`git checkout <branch>` - to switch to an existing branch. \
 `git branch -d <branch>` -  to delete a branch. \
+`git branch <new-branch> #commit` - will create a new branch with that commit changes. \
+`git checkout <branch>` - to switch to an existing branch. \
+`git checkout -b surya` - will create & immediately switch to "surya" branch. \
+`git checkout -b <new-branch> #commit` - will create a new branch with that commit & switch to it immediately. \
 **HEAD** always points to the last commit on the currently checked-out branch. If you switch branch, head moves with the branch. 
 
 **Git Log** \
