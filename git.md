@@ -13,7 +13,7 @@ A Git repository is a folder that git tracks the changes in it. \
 To create a new local repository, run the below command in your desired directory. \
 `git init` - creates empty local git repository.
 
-**git Commands** \
+**git commands** \
 `git status` - command is used to check the status of your commits. \
 `git add <file>` - command is used to add files to stage. \
 `git commit -m "commit message here"` - command is used to commit the staged files. \
@@ -23,7 +23,7 @@ To create a new local repository, run the below command in your desired director
 `git remote -v` - shows the remotely connected repository. \
 `git remote add <alias> <repo-link>` - adds remote repository with the given alias (usually origin)
 
-**git Branches** \
+**git branch** \
 Branches are nothing but pointers to a certain commit. \
 `git branch` - command is used to check the current branch. \
 `git branch -r` - lists all the remote branches. \
@@ -36,7 +36,7 @@ Branches are nothing but pointers to a certain commit. \
 `git checkout -b <new-branch> #commit` - will create a new branch with that commit & switch to it immediately. \
 *HEAD* always points to the last commit on the currently checked-out branch. If you switch branch, head moves with the branch. 
 
-**git Log** \
+**git log** \
 `git log` - command displays date, author, comment of a commit. \
 `git log --name-only` - also lists the files changed in that commit. \
 `git log --decorate` - shows the commit history along with ref (branches, tags, or remotes) associated with each commit \
