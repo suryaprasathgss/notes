@@ -36,6 +36,7 @@ These settings are used to identify you as the author of commits in your git rep
 
 * Connecting remote repo: \
 `git remote add <alias> <repo-url>` - connects remote repository to the project(local repo) in the given alias(usually origin). \
+`git remote set-url <alias> <repo-url>` - sets new remote repo url to the local repo. \
 `git remote -v` - shows the remotely connected repository to the current local folder. \
 `git push origin <new-branch-name>` - staged changes will be push to remote repo in mentioned branch.
 
