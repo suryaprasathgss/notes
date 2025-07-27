@@ -1,5 +1,5 @@
-# git
-**What is git?** \
+# Git
+**What is Git?** \
 Git is a free open-source distributed version control system (DVCS) used for tracking changes in computer files, especially source code in software development. \
 It allows multiple developers to work together on the same project simultaneously, manage different versions of a project, and allows to rollback to previous version if needed.
 
@@ -13,7 +13,7 @@ Using SCM allows you to:
 * Easily revert to a previous version (failover)
 
 
-**Install git:** \
+**Install Git:** \
 `sudo apt install git`
 
 
@@ -87,4 +87,5 @@ _**HEAD** always points to the last commit on the currently checked-out branch. 
 `git restore <file>` - when you want to undo the `git checkout <commit> -- <file>` changes. \
 `git restore --staged <file>` - can be used to unstage a file. (useful if a file is only staged & later modified) \
 `git reset ` - reset is the command we use when we want to move the repository back to a previous commit. \
-`git reset <commit>` - 
+`git reset --soft <commit>` - 
+
