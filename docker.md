@@ -1,5 +1,20 @@
 # Docker
 
+1. What is Docker?
+2. Why do you need Docker?
+3. What can it do?
+4. What are containers?
+5. Containers vs VM
+    Unlike VM, containers aren't meant to run an OS. Containers are meant to run a specific task or process such as web application, DB, are some kind of computation task. Container only lives as long as the process inside it is alive. If the process is stopped/crashed, then the container exits.
+6. Docker image & Docker container.
+7. Dockerfile
+8. CMD vs ENTRYPOINT
+    In case of CMD, the command line parameter passed is replaced entirely whereas in the ENTRYPOINT - the command line parameter is just appended.
+9. docker-compose and their versions.
+10. K8 yml file - Pod
+
+
+
 _Here's a comprehensive list of commonly used Docker commands, along with their usage:_
 
 **Basic Docker Commands**
